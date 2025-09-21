@@ -1,0 +1,102 @@
+site_name: "Project Title"
+site_description: 'Central resource for ESIIL project groups'
+site_author: Ty Tuff
+site_url: "https://OWNER.github.io/REPO/"
+
+# Repository
+repo_name: Project-group-home
+repo_url: https://github.com/CU-ESIIL/Project_group_oasis
+edit_uri: edit/main/docs/
+# Copyright
+copyright: 'Copyright &copy; 2024 University of Colorado Boulder'
+
+# Page tree
+nav:
+  - Home: index.md
+  - Instructions:
+      - Day 1 — Define & Explore: instructions/day1.md
+      - Day 2 — Data & Methods: instructions/day2.md
+      - Final Share Out — Insights & Sharing: instructions/day3.md
+  - Manuals:
+      - Link to GitHub: instructions/link-to-github.md
+      - Git/GitHub Widget in JupyterLab: instructions/push-to-github.md
+      - Save to persistent storage: instructions/save-to-persistent-storage.md
+      - RStudio Proxy Workaround: instructions/open-rstudio.md
+  - Storage:
+      - Your code: https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/code
+      - Your documentation: https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/documentation
+      - Your persistent storage: "https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_summit/Group_1?type=folder&resourceId=1993057e-8e90-11f0-b0fa-90e2ba675364"
+  - Orientation:
+      - Summit slides: orientation/slides.md
+      - ESIIL training: orientation/esiil_training.md
+      - Code of conduct: orientation/code-of-conduct.md
+      - Participant agreement: orientation/participant_agreement.md
+
+not_in_nav: |
+  data.md
+  instructions.md
+  project_template.md
+  assets/cyverse_basics/README.md
+  assets/docker_basics/README.md
+  assets/template/README.md
+  orientation/art_gallery.md
+  orientation/cyverse_basics.md
+  orientation/docker_basics.md
+  orientation/markdown_basics.md
+
+# Configuration
+theme:
+  highlightjs: true
+  name: material
+  font:
+    text: 'Open Sans'
+    code: 'Roboto Mono'
+  logo: 'assets/esiil_content/esiil_oasis_logo.png'
+  favicon: 'assets/esiil_content/favicon.ico'
+  custom_dir: docs/overrides
+  # setting features for the navigation tab
+  features:
+    - navigation.sections
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+    - toc.integrate
+    - toc.follow
+    - content.code.copy
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: white)"
+      primary: 'white'
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to system preference
+
+# Options
+extra:
+  social:
+    - icon: fontawesome/brands/github
+    # link: https://github.com/cu-esiil/
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+    - search
+    - mkdocstrings
+    - git-revision-date
+    - mkdocs-jupyter:
+          include_source: True
+          ignore_h1_titles: True
+markdown_extensions:
+  - toc:
+      toc_depth: 2
