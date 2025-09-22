@@ -29,29 +29,29 @@
 
 1. From the Cyverse Discovery Environment, click on `Apps` in the left menu
    ![apps](../assets/cyverse_basics/apps.svg)
-   [Raw photo location: apps.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/apps.svg)
+   [Raw photo location: apps.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/apps.svg)
 
 2. Select `JupyterLab ESIIL`
    ![use_this_app](../assets/cyverse_basics/use_this_app.svg)
-[Raw photo location: use_this_app.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/use_this_app.svg)
+[Raw photo location: use_this_app.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/use_this_app.svg)
 
 3. Configure and launch your analysis - when choosing the disk size, make sure to choose 64GB or greater. The rest of the settings you can change to suit your computing needs:
    ![app_launch](../assets/cyverse_basics/app_launch.svg)
-[Raw photo location: app_launch.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/app_launch.svg)
+[Raw photo location: app_launch.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/app_launch.svg)
 
    ![app_settings](../assets/cyverse_basics/app_settings.svg)
-[Raw photo location: app_settings.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/app_settings.svg)
+[Raw photo location: app_settings.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/app_settings.svg)
 
    ![launch](../assets/cyverse_basics/launch.svg)
-[Raw photo location: launch.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/launch.svg)
+[Raw photo location: launch.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/launch.svg)
 
 4. Click `Go to analysis`:
    ![go_to_analysis](../assets/cyverse_basics/go_to_analysis.svg)
-[Raw photo location: go_to_analysis.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/go_to_analysis.svg)
+[Raw photo location: go_to_analysis.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/go_to_analysis.svg)
 
 5. Now you should see Jupyter Lab!
    ![jupyterlab](../assets/cyverse_basics/jupyterlab.svg)
-[Raw photo location: jupyterlab.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/jupyterlab.svg)
+[Raw photo location: jupyterlab.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/jupyterlab.svg)
 
 ## Set up your GitHub credentials
 
@@ -62,56 +62,56 @@
 
 1. From Jupyter Lab, click on the Git Extension icon on the left menu:
    ![jupyterlab](../assets/cyverse_basics/jupyterlab.svg)
-[Raw photo location: jupyterlab.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/jupyterlab.svg)
+[Raw photo location: jupyterlab.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/jupyterlab.svg)
 
 2. Click `Clone a Repository` and Paste the link to the cyverse-utils [https://github.com/CU-ESIIL/cyverse-utils.git](https://github.com/CU-ESIIL/cyverse-utils.git) and click `Clone`:
    ![clone](../assets/cyverse_basics/clone.svg)
-[Raw photo location: clone.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/clone.svg)
+[Raw photo location: clone.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/clone.svg)
    
 3. You should now see the `cyverse-utils` folder in your directory tree (provided you haven't changed directories from the default `/home/jovyan/data-store`
    ![cyverse-utils](../assets/cyverse_basics/cyverse-utils.svg)
-[Raw photo location: cyverse-utils.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/cyverse-utils.svg)
+[Raw photo location: cyverse-utils.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/cyverse-utils.svg)
 
 4. Go into the `cyverse-utils` folder:
    ![click_cyverse_utils](../assets/cyverse_basics/click_cyverse_utils.svg)
-[Raw photo location: click_cyverse_utils.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/click_cyverse_utils.svg)
+[Raw photo location: click_cyverse_utils.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/click_cyverse_utils.svg)
 
 5. open up the `create_github_keypair.ipynb` notebook if you prefer Python or the 'create_github_keypair.R' script if you prefer R by double-clicking and then select the default 'macrosystems' kernel:
 ![open_cyverse_utils](../assets/cyverse_basics/open_cyverse_utils.svg)
-[Raw photo location: open_cyverse_utils.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/open_cyverse_utils.svg)
+[Raw photo location: open_cyverse_utils.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/open_cyverse_utils.svg)
 
 6. Now you should see the notebook open. Click the `play` button at the top. You will be prompted to enter your GitHub username and email:
    ![script_1](../assets/cyverse_basics/script_1.svg)
-[Raw photo location: script_1.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/script_1.svg)
+[Raw photo location: script_1.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/script_1.svg)
 
    ![username](../assets/cyverse_basics/username.svg)
-[Raw photo location: username.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/username.svg)
+[Raw photo location: username.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/username.svg)
 
    ![email](../assets/cyverse_basics/email.svg)
-[Raw photo location: email.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/email.svg)
+[Raw photo location: email.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/email.svg)
 
 7. You should now see your Public Key. Copy the WHOLE LINE including `ssh-ed25519` at the beginning and the `jovyan@...` at the end
 ![key](../assets/cyverse_basics/key.svg)
-[Raw photo location: key.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/key.svg)
+[Raw photo location: key.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/key.svg)
 
 8. Go to your GitHub settings page (you may need to log in to GitHub first):
    ![settings](../assets/cyverse_basics/settings.svg)
-[Raw photo location: settings.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/settings.svg)
+[Raw photo location: settings.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/settings.svg)
 
 9. Select `SSH and GPG keys`
    ![ssh](../assets/cyverse_basics/ssh.svg)
-[Raw photo location: ssh.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/ssh.svg)
+[Raw photo location: ssh.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/ssh.svg)
 
 10. Select `New SSH key`
    ![new_key](../assets/cyverse_basics/new_key.svg)
-[Raw photo location: new_key.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/new_key.svg)
+[Raw photo location: new_key.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/new_key.svg)
 
 11. Give your key a descriptive name, paste your ENTIRE public key in the `Key` input box, and click `Add SSH Key`. You may need to re-authenticate with your password or two-factor authentication.:
    ![paste_key](../assets/cyverse_basics/paste_key.svg)
-[Raw photo location: paste_key.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/paste_key.svg)
+[Raw photo location: paste_key.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/paste_key.svg)
 
 12. You should now see your new SSH key in your `Authentication Keys` list! Now you will be able to clone private repositories and push changes to GitHub from your Cyverse analysis!
    ![final](../assets/cyverse_basics/final.svg)
-[Raw photo location: final.svg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/cyverse_basics/final.svg)
+[Raw photo location: final.svg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/cyverse_basics/final.svg)
 
 > NOTE! Your GitHub authentication is ONLY for the analysis you're working with right now. You will be able to use it as long as you want there, but once you start a new analysis you will need to go through this process again. Feel free to delete keys from old analyses that have been shut down.
