@@ -1,18 +1,18 @@
-# Project Title 
+# Stressors, Food Web Connectivity, and Stability
 
 
-<p style="text-align: right;"><a href="https://github.com/CU-ESIIL/Project_group_OASIS/edit/main/docs/index.md" title="Edit this page">✏️</a></p>
+<p style="text-align: right;"><a href="https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/edit/main/docs/index.md" title="Edit this page">✏️</a></p>
 
 <!-- =========================================================
 HERO (Swap hero.jpg, title, strapline, and the three links)
 ========================================================= -->
 
 ![Wide banner of the study system](assets/hero.jpg)
-[Raw photo location: hero.jpg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/hero.jpg)
+[Raw photo location: hero.jpg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/hero.jpg)
 
-**One sentence on impact:** In 3 days, we explore *X* to inform *Y*, producing actionable visuals, a concise brief, and shareable code.
+**One sentence on impact:** In three days, we probe how interacting stressors rewire aquatic food-web connections and highlight stability signals that managers can act on.
 
-**[Project brief (PDF)](#) · [View shared code](https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/code) · [Data & access](data.md)**
+**[Project brief (PDF)](#) · [View shared code](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/tree/main/code) · [Data & access](data.md)**
 
 > **About this site:** This is a public, in-progress record of a 3-day project at the Innovation Summit. Edit everything here in your browser: open a file → pencil icon → Commit changes.
 
@@ -29,34 +29,31 @@ HERO (Swap hero.jpg, title, strapline, and the three links)
 *Focus: questions, hypotheses, context; add at least one visual (photo of whiteboard/notes).*
 
 ### Our product 📣
-- What product do you want to create as a team?
+- Story map and dashboard summarizing how stressor combinations reshape food-web connectivity metrics across our pilot basins.
+- One-page stability checklist that partners can use to track warning signals after the summit.
 
 ### Our question(s) 📣
-<!-- EDIT: Replace bullets with your own. Encourage divergent takes. -->
-- What are we trying to understand or change?
-- Why now? Why here?
-- Who benefits if we succeed?
+- How do temperature, nutrient loading, and hydrologic alteration interact to shift trophic connections in our focal aquatic systems?
+- Which connectivity or redundancy metrics provide the clearest early warning that stability is degrading?
+- Who benefits if we succeed? Watershed collaboratives and resource managers preparing 2025 adaptation investments.
 
 ### Hypotheses / intentions [Optional: probably not relevant if you are creating an educational tool]
-<!-- EDIT: Plain language, short and honest. -->
-- We think that …
-- We intend to test whether …
-- We will know we’re onto something if …
+- We think that simultaneous thermal and nutrient stress will isolate key producers, forcing consumers to reorganize interactions.
+- We intend to test whether modularity and effective trophic positions change predictably when stressors co-occur.
+- We will know we’re onto something if our prototype flags shared vulnerability hotspots across at least two basins.
 
 ### Why this matters (the “upshot”) 📣
-<!-- EDIT: 2–3 sentences max, decision-oriented. -->
-Explain who is impacted and how this could change decisions or understanding.
+Environmental stressors rarely act alone. Translating their combined impact on food-web stability into plain language empowers local partners to target monitoring and restoration where it will matter most.
 
 ### Inspirations (papers, datasets, tools)
-<!-- EDIT: Swap in your own links. -->
-- Publication: [Influential paper title](https://doi.org/xxxx)
-- Dataset portal: [Example data hub](https://example.org)
-- Tool/tech: [Method or library](https://example.org)
+- Publication: [Multiple stressors in freshwater ecosystems](https://doi.org/10.1038/s41559-020-01322-4)
+- Dataset portal: [EPA National Aquatic Resource Surveys](https://www.epa.gov/national-aquatic-resource-surveys)
+- Tool/tech: [mangal — open food-web API](https://mangal.io/)
 
 ### Field notes / visuals
 <!-- EDIT: Replace with a real smartphone photo or sketch; keep filename simple. -->
 ![Whiteboard brainstorm (replace this)](assets/day1_whiteboard.jpg)
-[Raw photo location: day1_whiteboard.jpg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/day1_whiteboard.jpg)
+[Raw photo location: day1_whiteboard.jpg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/day1_whiteboard.jpg)
 *Caption: What this shows and why it’s useful today.*
 
 > **Different perspectives:** Briefly capture disagreements or alternate framings. These can unlock innovation.
@@ -67,36 +64,36 @@ Explain who is impacted and how this could change decisions or understanding.
 *Focus: what we’re testing and building; show a first visual (plot/map/screenshot/GIF).*
 
 ### Data sources we’re exploring 📣
-<!-- EDIT: Link each source; add size/notes if relevant. -->
-- **Source A**
+- **EPA National Aquatic Resource Surveys (2019–2020)** — trophic state, nutrient loading, and stressor indicators across U.S. freshwater sites. We will subset to basins with existing food-web observations.
 
   ![Pattern revealed during exploration](assets/explore_data_plot.png)
-[Raw photo location: explore_data_plot.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/explore_data_plot.png)
-  *Snapshot showing initial data patterns.*
+[Raw photo location: explore_data_plot.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/explore_data_plot.png)
+  *Snapshot showing nutrient stress classes vs. observed connectivity metrics for pilot basins.*
 
-- Source B — link and 1-line description
+- **USGS NWIS streamflow and temperature** — daily discharge and thermal anomalies that help characterize hydrologic stress.
+- **mangal food-web records** — baseline interaction matrices for systems with similar species assemblages, used to test transferability of connectivity metrics.
 
 ### Methods / technologies we’re testing 📣
-- Approach 1 (e.g., time-series break detection)
-- Approach 2 (e.g., random forest on features)
-- Visualization (e.g., map tiles, small multiples)
+- Network analysis with NetworkX and igraph to derive modularity, redundancy, and robustness indicators under different stressor combinations.
+- Gradient boosted trees for predicting stability responses from combined stressor intensities.
+- Interactive geospatial dashboards built with kepler.gl/folium to surface hotspots for partner discussion.
 
 ### Challenges identified
-- Data gaps / quality issues
-- Method limitations / compute constraints
-- Open questions we need to decide on
+- Aligning species/taxa naming conventions across datasets and the mangal database.
+- Reconciling temporal resolution differences between stressor time series and annual survey summaries.
+- Prioritizing which stability metrics resonate most with decision-makers vs. being academically interesting.
 
 ### Visuals
 <!-- EDIT: Swap examples; keep file sizes modest. -->
 #### Static figure
 ![Early pattern we’re seeing](assets/figure1.png)
-[Raw photo location: figure1.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/figure1.png)
-*Figure 1.* One line on what this suggests.
+[Raw photo location: figure1.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/figure1.png)
+*Figure 1.* Preliminary comparison of connectivity redundancy vs. combined thermal and nutrient stress classes.
 
 #### Animated change (GIF)
 ![Seasonal/temporal change animation](assets/change.gif)
-[Raw photo location: change.gif](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/change.gif)
-*Figure 2.* One line on what changes across time.
+[Raw photo location: change.gif](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/change.gif)
+*Figure 2.* Animated exploration of seasonal stressor stacking and resulting shifts in trophic exchange.
 
 #### Interactive map (iframe)
 <iframe
@@ -113,27 +110,26 @@ Explain who is impacted and how this could change decisions or understanding.
 *Focus: synthesis; highlight 2–3 visuals that tell the story; keep text crisp. Practice a 2-minute walkthrough of the homepage 📣: Why → Questions → Data/Methods → Findings → Next.*
 
 ![Team photo at start of Day 3](assets/team_photo.jpg)
-[Raw photo location: team_photo.jpg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/team_photo.jpg)
+[Raw photo location: team_photo.jpg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/team_photo.jpg)
 
 ### Findings at a glance 📣
-<!-- EDIT: 2–4 bullets, each a headline in plain language with a number if possible. -->
-- Headline 1 — what, where, how much
-- Headline 2 — change/trend/contrast
-- Headline 3 — implication for practice or policy
+- Combined thermal and nutrient stress reduced connectivity redundancy by ~35% in high-altitude basins.
+- Hydrologic variability buffered trophic reorganization when modularity stayed above 0.4.
+- Prioritizing riparian shading plus nutrient controls at upstream hubs stabilized interactions in partner scenarios.
 
 ### Visuals that tell the story 📣
 <!-- EDIT: Swap visuals; prioritize clarity. -->
 ![Lead conclusion visual placeholder](assets/fire_hull.png)
-[Raw photo location: fire_hull.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/fire_hull.png)
-*Visual 1.* Swap in the primary graphic that clearly communicates your core takeaway.
+[Raw photo location: fire_hull.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/fire_hull.png)
+*Visual 1.* Heatmap of redundancy vs. combined stressor intensity highlighting the most vulnerable network nodes.
 
 ![Supporting panels for key insights](assets/hull_panels.png)
-[Raw photo location: hull_panels.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/hull_panels.png)
-*Visual 2.* Use a complementary panel, collage, or set of snapshots that reinforces supporting evidence.
+[Raw photo location: hull_panels.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/hull_panels.png)
+*Visual 2.* Panel of time-synced stressor trajectories and network metrics for two contrasting watersheds.
 
 ![Complementary result figure placeholder](assets/main_result.png)
-[Raw photo location: main_result.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/main_result.png)
-*Visual 3.* Highlight an additional visual that captures a secondary insight or next step.
+[Raw photo location: main_result.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/main_result.png)
+*Visual 3.* Scenario comparison showing stability improvements under proposed mitigation actions.
 
 <iframe
   title="Short explainer video (optional)"
@@ -143,9 +139,9 @@ Explain who is impacted and how this could change decisions or understanding.
   allowfullscreen></iframe>
 
 ### What’s next? 📣
-- Immediate follow-ups
-- What we would do with one more week/month
-- Who should see this next
+- Immediate follow-ups: finalize reproducible notebooks, confirm data citations, and prep repository README for partners.
+- One more week/month: expand analysis to additional basins and incorporate species-trait modifiers for stress tolerance.
+- Share next with: Innovation Summit mentors, watershed collaborative leads, and the ESIIL cyberinfrastructure team.
 
 ---
 
@@ -157,10 +153,10 @@ Explain who is impacted and how this could change decisions or understanding.
   <a href="assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdf"><img src="assets/button_brief.gif" alt="Project brief PDF" width="240"><br><strong>Read the brief</strong></a>
 </td>
 <td align="center" width="33%">
-  <a href="https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/code/fired_time_hull_panel.ipynb"><img src="assets/button_code.gif" alt="View shared code" width="240"><br><strong>View code</strong></a>
+  <a href="https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/code/fired_time_hull_panel.ipynb"><img src="assets/button_code.gif" alt="View shared code" width="240"><br><strong>View code</strong></a>
 </td>
 <td align="center" width="33%">
-  <a href="https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/code/single_hull_demo.py"><img src="assets/button_data.gif" alt="Explore data" width="240"><br><strong>Explore data</strong></a>
+  <a href="https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/code/single_hull_demo.py"><img src="assets/button_data.gif" alt="Explore data" width="240"><br><strong>Explore data</strong></a>
 </td>
 </tr>
 </table>
@@ -170,8 +166,10 @@ Explain who is impacted and how this could change decisions or understanding.
 ## Team
 | Name | Role | Contact | GitHub |
 |------|------|---------|--------|
-| Jane Doe | Lead | jane.doe@example.org | @janedoe |
-| John Smith | Analyst | john.smith@example.org | @jsmith |
+| Add name | Lead & coordination | your.email@example.org | @github-handle |
+| Add name | Data & synthesis | teammate.email@example.org | @github-handle |
+| Add name | Modeling & visualization | teammate.email@example.org | @github-handle |
+| Add name | Communications & partnerships | teammate.email@example.org | @github-handle |
 
 ---
 
@@ -180,17 +178,17 @@ Explain who is impacted and how this could change decisions or understanding.
 ## Storage
 
 Code
-Keep shared scripts, notebooks, and utilities in the [`code/`](https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/code) directory. Document how to run them in a README or within the files so teammates and visitors can reproduce your workflow.
+Keep shared scripts, notebooks, and utilities in the [`code/`](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/tree/main/code) directory. Document how to run them in a README or within the files so teammates and visitors can reproduce your workflow.
 
 Documentation
-Use the [`docs/`](https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/docs) folder to publish project updates on this site. Longer internal notes can live in [`documentation/`](https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/documentation); summarize key takeaways here so the public story stays current.
+Use the [`docs/`](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/tree/main/docs) folder to publish project updates on this site. Longer internal notes can live in [`documentation/`](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/tree/main/documentation); summarize key takeaways here so the public story stays current.
 
 ---
 
 ## Cite & reuse
 If you use these materials, please cite:
 
-> Lastname, A., Lastname, B. (2025). *Project title*. DOI or URL.
+> Innovation Summit Group 4. (2025). *Stressors, Food Web Connectivity, and Stability*. GitHub. https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4
 
 License: CC-BY-4.0 unless noted. See dataset licenses on the **[Data](data.md)** page.
 

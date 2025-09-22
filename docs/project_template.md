@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "OASIS: 3-Day Team Template"
-subtitle: "A friction-free guide for collaborative research sprints"
+title: "Stressors, Food Web Connectivity, and Stability — Team Template"
+subtitle: "Guide for Innovation Summit 2025 Group 4 sprint planning"
 hero_image: assets/template/hero.svg
 team_logo: assets/template/team-logo.svg
-contact_slack: "#oasis-project-room"
-contact_email: "team@example.org"
-repo_owner: "cu-esiil"
-repo_name: "Project_group_OASIS"
+contact_slack: "#innovation-summit-group-4"
+contact_email: "group4@esiil.org"
+repo_owner: "CU-ESIIL"
+repo_name: "stressors-food-web-connectivity-stability-innovation-summit-2025__4"
 edit_path: "docs/project_template.md"
 ---
 
