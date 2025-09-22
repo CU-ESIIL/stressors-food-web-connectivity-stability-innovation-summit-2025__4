@@ -25,7 +25,7 @@ nav:
   - Storage:
       - Your code: https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/tree/main/code
       - Your documentation: https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/tree/main/documentation
-      - Your persistent storage: "https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_summit/Group_4/"
+      - Your persistent storage: "https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_summit/Group_4?type=folder&resourceId=64a42a20-8e90-11f0-b0fa-90e2ba675364"
   - Orientation:
       - Summit slides: orientation/slides.md
       - ESIIL training: orientation/esiil_training.md
