@@ -1,11 +1,11 @@
-site_name: "Project Title"
-site_description: 'Central resource for ESIIL project groups'
+site_name: "Stressors, Food Web Connectivity, and Stability"
+site_description: 'Innovation Summit 2025 Group 4 project hub'
 site_author: Ty Tuff
-site_url: "https://OWNER.github.io/REPO/"
+site_url: "https://cu-esiil.github.io/stressors-food-web-connectivity-stability-innovation-summit-2025__4/"
 
 # Repository
-repo_name: Project-group-home
-repo_url: https://github.com/CU-ESIIL/Project_group_oasis
+repo_name: CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4
+repo_url: https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4
 edit_uri: edit/main/docs/
 # Copyright
 copyright: 'Copyright &copy; 2024 University of Colorado Boulder'
@@ -23,9 +23,9 @@ nav:
       - Save to persistent storage: instructions/save-to-persistent-storage.md
       - RStudio Proxy Workaround: instructions/open-rstudio.md
   - Storage:
-      - Your code: https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/code
-      - Your documentation: https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/documentation
-      - Your persistent storage: "https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_summit/Group_1?type=folder&resourceId=1993057e-8e90-11f0-b0fa-90e2ba675364"
+      - Your code: https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/tree/main/code
+      - Your documentation: https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/tree/main/documentation
+      - Your persistent storage: "https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_summit/Group_4/"
   - Orientation:
       - Summit slides: orientation/slides.md
       - ESIIL training: orientation/esiil_training.md
