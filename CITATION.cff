@@ -1,9 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it as below."
-title: "Project Group OASIS"
-version: "1.0.0"
-doi: 10.5281/zenodo.11166898
-date-released: 2025-09-10
+title: "Stressors, Food Web Connectivity, and Stability — Innovation Summit 2025 (Group 4)"
+abstract: "Materials, code, and documentation from the Innovation Summit 2025 team studying how stressors and connectivity influence food-web stability."
+version: "0.1.0"
+date-released: 2025-02-01
 authors:
-  - family-names: Tuff
-    given-names: Ty
+  - name: Innovation Summit Group 4

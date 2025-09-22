@@ -1,4 +1,9 @@
-# Project Group OASIS — Starter Website & README Kit
+# Stressors, Food Web Connectivity, and Stability — Innovation Summit 2025 (Group 4)
+
+Innovation Summit Group 4 is studying how multiple stressors interact with food-web connectivity to influence ecosystem stability. This repository holds the shared code, documentation, and website we update throughout the sprint.
+
+* Website: https://cu-esiil.github.io/stressors-food-web-connectivity-stability-innovation-summit-2025__4/
+* Repository: https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4
 
 This guide is written for people who may be brand new to GitHub. It will show you, step by step, how to use this repository as both:
 
@@ -113,7 +118,7 @@ Congratulations — you’re now using GitHub to communicate your science and sh
 
 ### Step 2 — Open the project home
 
-1. Visit your repository link (it looks like `https://github.com/ORG/Project_group_OASIS`).
+1. Visit your repository link (it looks like `https://github.com/ORG/stressors-food-web-connectivity-stability-innovation-summit-2025__4`).
 2. You’ll see folders like `docs/`, `src/`, and files like `README.md`.
 
 **Why this matters:** This is the “front door” to your project’s files.
