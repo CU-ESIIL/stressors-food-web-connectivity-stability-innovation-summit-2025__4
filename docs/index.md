@@ -8,7 +8,7 @@ HERO (Swap hero.jpg, title, strapline, and the three links)
 ========================================================= -->
 
 ![Wide banner of the study system](assets/20200729_145101.jpg)
-[Raw photo location: hero.jpg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/20200729_145101.jpg)
+[Raw photo location: 20200729_145101.jpg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/20200729_145101.jpg)
 
 **One sentence on impact:** In three days, we probe how interacting stressors rewire aquatic food-web connections and highlight stability signals that managers can act on.
 
@@ -50,8 +50,8 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 
 ### Field notes / visuals
 <!-- EDIT: Replace with a real smartphone photo or sketch; keep filename simple. -->
-![Whiteboard brainstorm (replace this)](assets/day1_whiteboard.jpg)
-[Raw photo location: day1_whiteboard.jpg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/day1_whiteboard.jpg)
+![Whiteboard brainstorm (replace this)](assets/assets/whiteboard_9-23-25.jpg)
+[Raw photo location: day1_whiteboard.jpg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/whiteboard_9-23-25.jpg)
 *Caption: What this shows and why it’s useful today.*
 
 > **Different perspectives:** Briefly capture disagreements or alternate framings. These can unlock innovation.
