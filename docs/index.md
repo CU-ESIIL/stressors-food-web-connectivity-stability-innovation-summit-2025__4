@@ -7,8 +7,8 @@
 HERO (Swap hero.jpg, title, strapline, and the three links)
 ========================================================= -->
 
-![Wide banner of the study system](assets/hero.jpg)
-[Raw photo location: hero.jpg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/hero.jpg)
+![Wide banner of the study system](assets/20200729_145101.jpg)
+[Raw photo location: hero.jpg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/20200729_145101.jpg)
 
 **One sentence on impact:** In three days, we probe how interacting stressors rewire aquatic food-web connections and highlight stability signals that managers can act on.
 
