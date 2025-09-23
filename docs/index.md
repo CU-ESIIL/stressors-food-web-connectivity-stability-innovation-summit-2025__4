@@ -50,7 +50,7 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 
 ### Field notes / visuals
 <!-- EDIT: Replace with a real smartphone photo or sketch; keep filename simple. -->
-![Whiteboard brainstorm (replace this)](assets/assets/whiteboard_9-23-25.jpg)
+![Whiteboard brainstorm (replace this)](assets/whiteboard_9-23-25.jpg)
 [Raw photo location: day1_whiteboard.jpg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/whiteboard_9-23-25.jpg)
 *Caption: What this shows and why it’s useful today.*
 
