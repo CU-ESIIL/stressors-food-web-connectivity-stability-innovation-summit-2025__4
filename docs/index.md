@@ -29,26 +29,24 @@ HERO (Swap hero.jpg, title, strapline, and the three links)
 *Focus: questions, hypotheses, context; add at least one visual (photo of whiteboard/notes).*
 
 ### Our product 📣
-- Story map and dashboard summarizing how stressor combinations reshape food-web connectivity metrics across our pilot basins.
-- One-page stability checklist that partners can use to track warning signals after the summit.
+- Publication
 
 ### Our question(s) 📣
-- How do temperature, nutrient loading, and hydrologic alteration interact to shift trophic connections in our focal aquatic systems?
-- Which connectivity or redundancy metrics provide the clearest early warning that stability is degrading?
-- Who benefits if we succeed? Watershed collaboratives and resource managers preparing 2025 adaptation investments.
+- How do multiple stressors impact food web connectivity in aquatic systems, and at what threshold of connectivity do we pass a tipping point?
+- Can food web connectivity be used as a predictor of tipping points?
+- Does relative abundance at each trophic level signal tipping points?
+
 
 ### Hypotheses / intentions [Optional: probably not relevant if you are creating an educational tool]
-- We think that simultaneous thermal and nutrient stress will isolate key producers, forcing consumers to reorganize interactions.
-- We intend to test whether modularity and effective trophic positions change predictably when stressors co-occur.
-- We will know we’re onto something if our prototype flags shared vulnerability hotspots across at least two basins.
+- If the number of food web connections approximates stability, then loss of some number of connections over a threshold will result in a significantly different food web composition.
+- Addition of multiple stressors will lead to a switch in trophic cascade structure (bottom-up versus top-down systems).
+- Addition of multiple stressors will shift food webs to contain a higher proportion of generalist species. 
 
 ### Why this matters (the “upshot”) 📣
-Environmental stressors rarely act alone. Translating their combined impact on food-web stability into plain language empowers local partners to target monitoring and restoration where it will matter most.
+Aquatic places have a lot of value - food, recreation, biodiversity, and more. Freshwater lakes are under threat from multiple stressors including changing temperatures, pH, nutrients, invaisve species, and human impact, which threaten those values.
 
 ### Inspirations (papers, datasets, tools)
-- Publication: [Multiple stressors in freshwater ecosystems](https://doi.org/10.1038/s41559-020-01322-4)
-- Dataset portal: [EPA National Aquatic Resource Surveys](https://www.epa.gov/national-aquatic-resource-surveys)
-- Tool/tech: [mangal — open food-web API](https://mangal.io/)
+- Publication: [Lake Champlain data](https://anrweb.vermont.gov/dec/_dec/LongTermMonitoringLakes.aspx?_gl=1*1gvj1mr*_ga*ODAxMzU1NjYwLjE3NTg2NTY5NTk.*_ga_V9WQH77KLW*czE3NTg2NTY5NTkkbzEkZzEkdDE3NTg2NTcyNzYkajYwJGwwJGgw))
 
 ### Field notes / visuals
 <!-- EDIT: Replace with a real smartphone photo or sketch; keep filename simple. -->
