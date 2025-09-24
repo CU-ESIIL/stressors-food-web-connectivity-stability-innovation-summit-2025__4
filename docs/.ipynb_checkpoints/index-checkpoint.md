@@ -64,21 +64,14 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 
 ### Data sources we’re exploring 📣
 <!-- EDIT: Link each source; add size/notes if relevant. -->
-- **EPA National Aquatic Resource Surveys (2019–2020)** — trophic state, nutrient loading, and stressor indicators across U.S. freshwater sites. We will subset to basins with existing food-web observations.
-
-  ![Various qater quality metrics](assets/lc_water_quality.png)
-[Raw photo location: lc_water_quality.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/lc_water_quality.png)
-  *Snapshot showing water quality over time pilot station.*
-
-- **USGS NWIS streamflow and temperature** — daily discharge and thermal anomalies that help characterize hydrologic stress.
-- **mangal food-web records** — baseline interaction matrices for systems with similar species assemblages, used to test transferability of connectivity metrics.
+- **EPA National Aquatic Resource Surveys (2019–2020)**: trophic state, nutrient loading, and stressor indicators across U.S. freshwater sites. We will subset to basins with existing food-web observations.
 
 ### Methods / technologies we’re testing 📣
 - Data gaps / quality issues
 - Method limitations / compute constraints
 - Open questions we need to decide on
 --------
-- Network analysis with NetworkX and igraph to derive modularity, redundancy, and robustness indicators under different stressor combinations.
+- Network analysis with NetworkX and igraph to derive modularity, redundancy, and robustness indicators under different stressor combinations..
 - Gradient boosted trees for predicting stability responses from combined stressor intensities.
 - Interactive geospatial dashboards built with kepler.gl/folium to surface hotspots for partner discussion.
 
@@ -91,14 +84,12 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 ### Visuals
 <!-- EDIT: Swap examples; keep file sizes modest. -->
 #### Static figure
-![Early pattern we’re seeing](assets/figure1.png)
-[Raw photo location: figure1.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/figure1.png)
-*Figure 1.* One line on what this suggests.
 
-#### Animated change (GIF)
-![Seasonal/temporal change animation](assets/change.gif)
-[Raw photo location: change.gif](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/change.gif)
-*Figure 2.* One line on what changes across time.
+![Various water quality metrics](assets/lc_water_quality.png)
+[Raw photo location: lc_water_quality.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/lc_water_quality.png)
+
+*Figure 1.* Snapshot showing water quality over time at a pilot station.
+
 
 #### Interactive map (iframe)
 <iframe
