@@ -171,12 +171,18 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 ---
 
 ## Team
-| Name | Role | Contact | GitHub |
+| Name | Role | Affiliation | GitHub |
 |------|------|---------|--------|
-| Jane Doe | Lead | jane.doe@example.org | @janedoe |
-| John Smith | Analyst | john.smith@example.org | @jsmith |
+| [Dr. Matt Bitters](https://earthlab.colorado.edu/our-team/matthew-bitters) | TBD | CIRES, CU Boulder | [@matthewbitters](https://github.com/matthewbitters) |
+| [Dr. Alyssa Gleichsner](https://www.plattsburgh.edu/academics/schools/arts-sciences/biological-sciences/faculty/gleichsner-alyssa.html) | TBD | SUNY Plattsburgh | [@ParasiticProf](https://github.com/ParasiticProf); [@agleichs](https://github.com/agleichs) |
+| [Dr. Harrison Hartle](https://www.santafe.edu/people/profile/harrison-hartle) | TBD | Santa Fe Institute | TBD |
+| [Evan Fiorenza](https://www.evan-fiorenza.com/about-me) | TBD | UC Irvine | [@evanfiorenza](https://github.com/evanfiorenza) |
+| [Aruni Kadawatha](https://www.researchgate.net/profile/Aruni-Kadawatha-4) | TBD | Case Western Reserve University | [@AruniD0219](https://github.com/AruniD0219) |
+| [Ruby Krasnow](https://ruby.science) | TBD | University of Maine | [@rmk118](https://github.com/rmk118) |
 
 ---
+
+
 
 
 
