@@ -78,16 +78,16 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 - Data gaps / quality issues
 - Method limitations / compute constraints
 - Open questions we need to decide on
-
+--------
 - Network analysis with NetworkX and igraph to derive modularity, redundancy, and robustness indicators under different stressor combinations.
 - Gradient boosted trees for predicting stability responses from combined stressor intensities.
 - Interactive geospatial dashboards built with kepler.gl/folium to surface hotspots for partner discussion.
 
 
 ### Challenges identified
-- Aligning species/taxa naming conventions across datasets and the mangal database.
-- Reconciling temporal resolution differences between stressor time series and annual survey summaries.
-- Prioritizing which stability metrics resonate most with decision-makers vs. being academically interesting.
+- Data gaps / quality issues
+- Method limitations / compute constraints
+- Open questions we need to decide on
 
 ### Visuals
 <!-- EDIT: Swap examples; keep file sizes modest. -->
