@@ -74,16 +74,18 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 - Determine if and where thresholds exist before food web metrics display food web collapse.
 
 ### Challenges identified
-- Data gaps / quality issues:
-  1. Site IDs don't seem to match to consistent locations.
-  2. Site IDs are differen't between the Vermont DEC website and the EPA API (where we actually stream data from), making it difficult to get a handle on what sites we are looking at.
-  3. Zooplankton is missing from the Lake Champlain dataset, which are crucial taxa to include in a freshwater food web.
-- Method limitations / compute constraints
-  1. How do we make a basic, but also realistic, simulated food web to test effects of stressors?
-- Open questions we need to decide on
-  1. How complex of a food web do we simulate?
-  2. Which stressors do we include in the system?
-  3. Do we expand outside of Lake Champlain? If so, where do we find those data?
+**Data gaps / quality issues:**
+1. Site IDs don't seem to match to consistent locations.
+2. Site IDs are differen't between the Vermont DEC website and the EPA API (where we actually stream data from), making it difficult to get a handle on what sites we are looking at.
+3. Zooplankton is missing from the Lake Champlain dataset, which are crucial taxa to include in a freshwater food web.
+
+**Method limitations / compute constraints**
+1. How do we make a basic, but also realistic, simulated food web to test effects of stressors?
+
+**Open questions we need to decide on**
+1. How complex of a food web do we simulate?
+2. Which stressors do we include in the system?
+3. Do we expand outside of Lake Champlain? If so, where do we find those data?
 
 ### Visuals
 <!-- EDIT: Swap examples; keep file sizes modest. -->
