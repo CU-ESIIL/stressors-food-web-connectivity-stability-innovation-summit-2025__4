@@ -14,20 +14,23 @@ library(dataRetrieval)
 #setwd("/home/jovyan/data-store/stressors-food-web-connectivity-stability-innovation-summit-2025_4")
 #here::i_am("README.md")   # or any file guaranteed to exist in the project
 
+# Site code for "19 - Main Lake"
+site_id <- "1VTDECWQ-503411"
 
 # Query WQP directly and stream into R
 lc_wq_dat <- readWQPdata(
-  countrycode = "US",
-  statecode = "US:50",
-  siteType = "Lake, Reservoir, Impoundment",
-  organization = "1VTDECWQ",
-  huc = "04150408",
-  providers = c("NWIS", "STORET"),
-  sampleMedia = c("Water", "Biological"),
-  startDateLo = "2000-01-01",
-  startDateHi = "2010-12-31"
+  siteid = site_id,
+  providers = c("NWIS", "STORET")
 )
 
 # Inspect results
 head(lc_wq_dat)
 names(lc_wq_dat)
+nrow(lc_wq_dat)
+
+
+# Inspect which characteristic names are available
+unique_chars <- unique(lc_wq_dat$CharacteristicName)
+
+# Look for plankton-related entries
+grep("zoop", unique_chars, ignore.case = TRUE, value = TRUE)
