@@ -63,6 +63,8 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 *Focus: what we’re testing and building; show a first visual (plot/map/screenshot/GIF).*
 
 ### Data sources we’re exploring 📣
+<!-- EDIT: Link each source; add size/notes if relevant. -->
+- **Source A**
 - **EPA National Aquatic Resource Surveys (2019–2020)** — trophic state, nutrient loading, and stressor indicators across U.S. freshwater sites. We will subset to basins with existing food-web observations.
 
   ![Pattern revealed during exploration](assets/explore_data_plot.png)
@@ -73,9 +75,14 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 - **mangal food-web records** — baseline interaction matrices for systems with similar species assemblages, used to test transferability of connectivity metrics.
 
 ### Methods / technologies we’re testing 📣
+- Data gaps / quality issues
+- Method limitations / compute constraints
+- Open questions we need to decide on
+
 - Network analysis with NetworkX and igraph to derive modularity, redundancy, and robustness indicators under different stressor combinations.
 - Gradient boosted trees for predicting stability responses from combined stressor intensities.
 - Interactive geospatial dashboards built with kepler.gl/folium to surface hotspots for partner discussion.
+
 
 ### Challenges identified
 - Aligning species/taxa naming conventions across datasets and the mangal database.
@@ -87,12 +94,12 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 #### Static figure
 ![Early pattern we’re seeing](assets/figure1.png)
 [Raw photo location: figure1.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/figure1.png)
-*Figure 1.* Preliminary comparison of connectivity redundancy vs. combined thermal and nutrient stress classes.
+*Figure 1.* One line on what this suggests.
 
 #### Animated change (GIF)
 ![Seasonal/temporal change animation](assets/change.gif)
 [Raw photo location: change.gif](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/change.gif)
-*Figure 2.* Animated exploration of seasonal stressor stacking and resulting shifts in trophic exchange.
+*Figure 2.* One line on what changes across time.
 
 #### Interactive map (iframe)
 <iframe
@@ -112,23 +119,24 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 [Raw photo location: team_photo.jpg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/team_photo.jpg)
 
 ### Findings at a glance 📣
-- Combined thermal and nutrient stress reduced connectivity redundancy by ~35% in high-altitude basins.
-- Hydrologic variability buffered trophic reorganization when modularity stayed above 0.4.
-- Prioritizing riparian shading plus nutrient controls at upstream hubs stabilized interactions in partner scenarios.
+<!-- EDIT: 2–4 bullets, each a headline in plain language with a number if possible. -->
+- Headline 1 — what, where, how much
+- Headline 2 — change/trend/contrast
+- Headline 3 — implication for practice or policy
 
 ### Visuals that tell the story 📣
 <!-- EDIT: Swap visuals; prioritize clarity. -->
 ![Lead conclusion visual placeholder](assets/fire_hull.png)
 [Raw photo location: fire_hull.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/fire_hull.png)
-*Visual 1.* Heatmap of redundancy vs. combined stressor intensity highlighting the most vulnerable network nodes.
+*Visual 1.* Swap in the primary graphic that clearly communicates your core takeaway.
 
 ![Supporting panels for key insights](assets/hull_panels.png)
 [Raw photo location: hull_panels.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/hull_panels.png)
-*Visual 2.* Panel of time-synced stressor trajectories and network metrics for two contrasting watersheds.
+*Visual 2.* Use a complementary panel, collage, or set of snapshots that reinforces supporting evidence.
 
 ![Complementary result figure placeholder](assets/main_result.png)
 [Raw photo location: main_result.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/main_result.png)
-*Visual 3.* Scenario comparison showing stability improvements under proposed mitigation actions.
+*Visual 3.* Highlight an additional visual that captures a secondary insight or next step.
 
 <iframe
   title="Short explainer video (optional)"
@@ -138,9 +146,9 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
   allowfullscreen></iframe>
 
 ### What’s next? 📣
-- Immediate follow-ups: finalize reproducible notebooks, confirm data citations, and prep repository README for partners.
-- One more week/month: expand analysis to additional basins and incorporate species-trait modifiers for stress tolerance.
-- Share next with: Innovation Summit mentors, watershed collaborative leads, and the ESIIL cyberinfrastructure team.
+- Immediate follow-ups
+- What we would do with one more week/month
+- Who should see this next
 
 ---
 
@@ -165,10 +173,8 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 ## Team
 | Name | Role | Contact | GitHub |
 |------|------|---------|--------|
-| Add name | Lead & coordination | your.email@example.org | @github-handle |
-| Add name | Data & synthesis | teammate.email@example.org | @github-handle |
-| Add name | Modeling & visualization | teammate.email@example.org | @github-handle |
-| Add name | Communications & partnerships | teammate.email@example.org | @github-handle |
+| Jane Doe | Lead | jane.doe@example.org | @janedoe |
+| John Smith | Analyst | john.smith@example.org | @jsmith |
 
 ---
 
