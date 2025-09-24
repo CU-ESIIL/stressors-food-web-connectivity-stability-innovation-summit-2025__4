@@ -71,9 +71,9 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 - Method limitations / compute constraints
 - Open questions we need to decide on
 --------
-- Network analysis with NetworkX and igraph to derive modularity, redundancy, and robustness indicators under different stressor combinations.
-- Gradient boosted trees for predicting stability responses from combined stressor intensities.
-- Interactive geospatial dashboards built with kepler.gl/folium to surface hotspots for partner discussion.
+- Ecopath with Ecosim?
+- Convergent Cross-Mapping (from EDM)?
+- Draw on Harrison's expertise with network comparison (e.g., [Hartle et al., 2020](https://doi.org/10.1098/rspa.2019.0744))
 
 
 ### Challenges identified
