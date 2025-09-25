@@ -69,6 +69,7 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 
 <!-- EDIT: Link each source; add size/notes if relevant. -->
 - Vermont Department of Environmental Conservation/EPA water quality datasets: [Lake Champlain data](https://anrweb.vermont.gov/dec/_dec/LongTermMonitoringLakes.aspx?_gl=1*1gvj1mr*_ga*ODAxMzU1NjYwLjE3NTg2NTY5NTk.*_ga_V9WQH77KLW*czE3NTg2NTY5NTkkbzEkZzEkdDE3NTg2NTcyNzYkajYwJGwwJGgw) Physical, chemical, and biological observations including nutrients, temperature, pH, dissolved oxygen, and biological species
+-EPA Great Lakes Data repository GLENDA: [Great Lakes Data Repository] (https://cdxapps.epa.gov/cdx-glenda/action/querytool/querySystem)
 
 ### Methods / technologies we’re testing 📣
 - Parameterize a simulated food web using observed data from Lake Champlain.
