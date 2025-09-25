@@ -115,12 +115,16 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 <iframe 
   width="100%" 
   height="500" 
-  src="https://www.openstreetmap.org/export/embed.html?bbox=-76.52526855468751%2C42.84777884235988%2C-71.38366699218751%2C45.77135470445038&amp;layer=mapnik" 
+  frameborder="0"
+  scrolling="no"
+  marginheight="0"
+  marginwidth="0"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=-76.52526855468751%2C42.84777884235988%2C-71.38366699218751%2C45.77135470445038&amp;layer=mapnik"
   style="border: 1px solid black">
 </iframe>
 
 <p>
-  <a href="https://www.openstreetmap.org/?#map=8/44.328/-73.954" target="_blank">
+  <a href="https://www.openstreetmap.org/#map=8/44.328/-73.954" target="_blank">
     View Larger Map
   </a>
 </p>
