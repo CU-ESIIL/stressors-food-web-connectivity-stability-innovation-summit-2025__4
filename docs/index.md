@@ -133,7 +133,6 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 ---
 
 ## Final Share Out — Insights & Sharing 
-*Focus: synthesis; highlight 2–3 visuals that tell the story; keep text crisp. Practice a 2-minute walkthrough of the homepage 📣: Why → Questions → Data/Methods → Findings → Next.*
 
 ![Team photo at start of Day 3](assets/team_photo.jpg)
 [Raw photo location: team_photo.jpg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/team_photo.jpg)
