@@ -122,9 +122,10 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 [Raw photo location: team_photo.jpg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/team_photo.jpg)
 
 ### Findings at a glance 📣
-- Headline 1 — what, where, how much
-- Headline 2 — change/trend/contrast
-- Headline 3 — implication for practice or policy
+- Freshwater lakes provide important values to humans and ecosystems. It is imperative that resource managers understand food webs and the threats that can alter them.
+- Lake Champlain has multiple stressors acting on food webs including warming temperatures, nutrient inputs, and invasive species introductions.
+- Invasive species invasions can be detected from figures
+- Scale matters! E.g., phosphorus varies at different depths.
 
 ### What’s next? 📣
 - Aquire more relevant data (e.g., zooplankton data from collaborator)
