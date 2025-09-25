@@ -104,6 +104,14 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 [Raw photo location: lc_water_quality.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/Site50_WaterQualityPlusInvasions)
 *Figure 2.* Water quality over time at a shallow water station. Vertical red dashed lines indicate biological invasions.
 
+![Simple food web specific to Lake Camplain](assets/very_simple_foodweb.png)
+[Raw photo location: lc_water_quality.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/very_simple_foodweb.png)
+*Figure 3.* XX.
+
+![Moderately complex food web specific to Lake Champlain](assets/moderate_complexity_foodweb.png)
+[Raw photo location: lc_water_quality.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/moderate_complexity_foodweb.png)
+*Figure 4.* XX.
+
 #### Interactive map (iframe)
 <iframe
   title="Study area (OpenStreetMap)"
