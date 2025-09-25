@@ -97,7 +97,6 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 
 ![Various water quality metrics](assets/lc_water_quality.png)
 [Raw photo location: lc_water_quality.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/lc_water_quality.png)
-
 *Figure 1.* Snapshot showing water quality over time at a pilot station.
 
 ![Missisquoi Bay Water Quality over time](assets/Site50_WaterQualityPlusInvasions.png)
@@ -106,11 +105,11 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 
 ![Simple food web specific to Lake Camplain](assets/very_simple_foodweb.png)
 [Raw photo location: lc_water_quality.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/very_simple_foodweb.png)
-*Figure 3.* XX.
+*Figure 3.* Simple food web relevant to most freshwater lake systems with common Lake Champlain invasive species.
 
 ![Moderately complex food web specific to Lake Champlain](assets/moderate_complexity_foodweb.png)
 [Raw photo location: lc_water_quality.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/moderate_complexity_foodweb.png)
-*Figure 4.* XX.
+*Figure 4.* Slightly more complex food web specific to Lake Camplain and many other freshwater lakes. Year of introduction of invasive species labeled in parantheses.
 
 #### Interactive map (iframe)
 <iframe
