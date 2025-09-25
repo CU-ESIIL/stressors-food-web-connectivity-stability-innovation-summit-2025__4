@@ -114,9 +114,9 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 #### Interactive map (iframe)
 <iframe
   title="Study area (OpenStreetMap)"
-  src="https://www.openstreetmap.org/export/embed.html?bbox=-105.35%2C39.90%2C-105.10%2C40.10&layer=mapnik&marker=40.000%2C-105.225"
+  src="<iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-76.52526855468751%2C42.84777884235988%2C-71.38366699218751%2C45.77135470445038&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?#map=8/44.328/-73.954">View Larger Map</a></small>"
   width="100%" height="360" frameborder="0"></iframe>
-<p><a href="https://www.openstreetmap.org/?mlat=40.000&mlon=-105.225#map=12/40.0000/-105.2250">Open full map</a></p>
+<p><a href="<iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-76.52526855468751%2C42.84777884235988%2C-71.38366699218751%2C45.77135470445038&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?#map=8/44.328/-73.954">View Larger Map</a></small>">Open full map</a></p>
 
 > If an embed doesn’t load, put the normal link directly under it.
 
