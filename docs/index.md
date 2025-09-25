@@ -122,54 +122,17 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 [Raw photo location: team_photo.jpg](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/team_photo.jpg)
 
 ### Findings at a glance 📣
-<!-- EDIT: 2–4 bullets, each a headline in plain language with a number if possible. -->
 - Headline 1 — what, where, how much
 - Headline 2 — change/trend/contrast
 - Headline 3 — implication for practice or policy
 
-### Visuals that tell the story 📣
-<!-- EDIT: Swap visuals; prioritize clarity. -->
-![Lead conclusion visual placeholder](assets/fire_hull.png)
-[Raw photo location: fire_hull.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/fire_hull.png)
-*Visual 1.* Swap in the primary graphic that clearly communicates your core takeaway.
-
-![Supporting panels for key insights](assets/hull_panels.png)
-[Raw photo location: hull_panels.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/hull_panels.png)
-*Visual 2.* Use a complementary panel, collage, or set of snapshots that reinforces supporting evidence.
-
-![Complementary result figure placeholder](assets/main_result.png)
-[Raw photo location: main_result.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/main_result.png)
-*Visual 3.* Highlight an additional visual that captures a secondary insight or next step.
-
-<iframe
-  title="Short explainer video (optional)"
-  width="100%" height="360"
-  src="https://www.youtube.com/embed/ASTGFZ0d6Ps"
-  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen></iframe>
-
 ### What’s next? 📣
-- Immediate follow-ups
-- What we would do with one more week/month
-- Who should see this next
-
----
-
-## Featured links (image buttons)
-<!-- EDIT: Replace images/links; keep alt text meaningful and motion subtle. -->
-<table>
-<tr>
-<td align="center" width="33%">
-  <a href="assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdf"><img src="assets/button_brief.gif" alt="Project brief PDF" width="240"><br><strong>Read the brief</strong></a>
-</td>
-<td align="center" width="33%">
-  <a href="https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/code/fired_time_hull_panel.ipynb"><img src="assets/button_code.gif" alt="View shared code" width="240"><br><strong>View code</strong></a>
-</td>
-<td align="center" width="33%">
-  <a href="https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/code/prism_quicklook.py"><img src="assets/button_data.gif" alt="Explore data" width="240"><br><strong>Explore data</strong></a>
-</td>
-</tr>
-</table>
+- Aquire more relevant data (e.g., zooplankton data from collaborator)
+- Harmonize data
+- Identify all stressors that affect Lake Champlain
+- Refine scope
+- Develop ESIIL Working Group application
+- Future publication!
 
 ---
 
