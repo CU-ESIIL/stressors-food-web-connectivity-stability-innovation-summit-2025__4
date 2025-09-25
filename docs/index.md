@@ -112,10 +112,18 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 *Figure 4.* Slightly more complex food web specific to Lake Camplain and many other freshwater lakes. Year of introduction of invasive species labeled in parantheses.
 
 #### Interactive map (iframe)
-<iframe
-  title="Study area (OpenStreetMap)"
-  src="<iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-76.52526855468751%2C42.84777884235988%2C-71.38366699218751%2C45.77135470445038&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?#map=8/44.328/-73.954">View Larger Map</a></small>"
-  width="100%" height="360" frameborder="0"></iframe>
+<iframe 
+  width="100%" 
+  height="500" 
+  src="https://www.openstreetmap.org/export/embed.html?bbox=-76.52526855468751%2C42.84777884235988%2C-71.38366699218751%2C45.77135470445038&amp;layer=mapnik" 
+  style="border: 1px solid black">
+</iframe>
+
+<p>
+  <a href="https://www.openstreetmap.org/?#map=8/44.328/-73.954" target="_blank">
+    View Larger Map
+  </a>
+</p>
 
 
 ---
