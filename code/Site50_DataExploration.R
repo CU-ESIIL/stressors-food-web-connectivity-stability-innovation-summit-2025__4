@@ -2,11 +2,14 @@
 # Alyssa Gleichsner
 # Last updated: 2025-09-25
 
+#Load libraries:
 library(tidyverse)
 install.packages("dataRetrieval")
 library(dataRetrieval)
 install.packages("janitor")
 library(janitor)
+library(dplyr)
+library(ggplot2)
 
 # Define custom ggplot themes for consistent plot styling
 mytheme <- theme_classic() +
@@ -54,96 +57,35 @@ max(lc_wq_dat$ActivityStartDate) # 2023-11-16
 
 unique(lc_wq_dat$ActivityMediaName) # only 'Water'
 
-lc_water <- lc_wq_dat %>%
-  filter(CharacteristicName %in% characteristics) %>%
+
+data <- lc_wq_dat
+
+
+lc_annual <- data %>% remove_empty(which = "cols") %>%
+  mutate(ResultMeasureValue = as.numeric(ResultMeasureValue)) %>%
   filter(!is.na(ResultMeasureValue)) %>%
-  remove_empty(which = "cols") %>% clean_names()
-
-# write_csv(lc_water, "lc_water_2025-09-24.csv") # >190 MB
-
-water_temp <- lc_water %>%
-  filter(characteristic_name == "Temperature, water") %>%
-  remove_empty(which = "cols") %>%
-  mutate(result_measure_value = as.numeric(result_measure_value))
-
-summary(water_temp$activity_start_date) # 1990-05-01 to 2023-11-16
-
-ggplot(water_temp) +
-  geom_line(aes(x = activity_start_date, y = result_measure_value)) +
-  mytheme +
-  labs(x = "Year", y = "Temp (°C)", title = "Water temperature in Lake Champlain, 1990-2023")
-
-phosphorus <- lc_water %>%
-  filter(characteristic_name == "Phosphorus") %>%
-  remove_empty(which = "cols") %>%
-  mutate(result_measure_value = as.numeric(result_measure_value))
-
-summary(phosphorus$activity_start_date) # 1980-05-01 to 2023-11-16
-
-ggplot(phosphorus) +
-  geom_line(aes(x = activity_start_date, y = result_measure_value)) +
-  mytheme +
-  labs(x = "Year", y = "P (ug/L)", title = "Phosphorus in Lake Champlain, 1980-2023")
-
-lc_wq_summary <- readWQPsummary(
-  countrycode = "US",
-  statecode = "US:50",
-  siteType = "Lake, Reservoir, Impoundment",
-  organization = "1VTDECWQ",
-  huc = "04150408",
-  providers = c("NWIS", "STORET")
-)
-
-lc_wq_summary %>%
-  count(CharacteristicType)
-
-lc_wq_summary %>%
-  filter(CharacteristicType == "Biological, Algae, Phytoplankton") %>%
-  count(CharacteristicName) # All Chlorophyll, no plankton
-
-lc_means <- lc_water %>% remove_empty(which = "cols") %>%
-  mutate(result_measure_value = as.numeric(result_measure_value)) %>%
-  filter(!is.na(result_measure_value)) %>%
-  group_by(characteristic_name, activity_start_date) %>%
-  summarise(mean_val = mean(result_measure_value))
-
-lc_wide <- lc_water %>% remove_empty(which = "cols") %>%
-  mutate(result_measure_value = as.numeric(result_measure_value)) %>%
-  filter(!is.na(result_measure_value)) %>%
-  pivot_wider(names_from = "characteristic_name", values_from = "result_measure_value") %>%
-  mutate(
-    chl_a = if_else(
-      is.na(`Chlorophyll a, corrected for pheophytin`),
-      `Chlorophyll a`,
-      `Chlorophyll a, corrected for pheophytin`
-    ),
-    .keep = "unused"
-  )
-
-
-lc_annual <- lc_water %>% remove_empty(which = "cols") %>%
-  mutate(result_measure_value = as.numeric(result_measure_value)) %>%
-  filter(!is.na(result_measure_value)) %>%
-  mutate(year = year(activity_start_date)) %>%
-  group_by(characteristic_name, year) %>%
+  mutate(year = year(ActivityStartDate)) %>%
+  group_by(CharacteristicName, year) %>%
   summarise(
-    mean_val = mean(result_measure_value, na.rm = TRUE),
-    sd_val = sd(result_measure_value, na.rm = TRUE)
+    mean_val = mean(ResultMeasureValue, na.rm = TRUE),
+    sd_val = sd(ResultMeasureValue, na.rm = TRUE)
   ) %>%
   mutate(
-    characteristic_name = if_else(
-      characteristic_name == "Chlorophyll a" |
-        characteristic_name == "Chlorophyll a, corrected for pheophytin",
+    CharacteristicName = if_else(
+      CharacteristicName == "Chlorophyll a" |
+        CharacteristicName == "Chlorophyll a, corrected for pheophytin",
       "Chlorophyll",
-      characteristic_name
+      CharacteristicName
     )
   )
 
-lc_annual %>% count(characteristic_name)
 
+
+#Graph it
+  
 lc_annual %>%
   filter((
-    characteristic_name %in%
+    CharacteristicName %in%
       c("Chlorophyll",
         "Dissolved oxygen (DO)",
         "Phosphorus",
@@ -151,13 +93,16 @@ lc_annual %>%
         "Temperature, water")
   )) %>%
   ggplot() +
-  geom_line(aes(x = year, y = mean_val, color = characteristic_name)) +
- # geom_pointrange(aes(x = year, y = mean_val, ymin = mean_val - sd_val, ymax = mean_val + sd_val, color = characteristic_name)) +
+  geom_line(aes(x = year, y = mean_val, color = CharacteristicName)) +
+  # geom_pointrange(aes(x = year, y = mean_val, ymin = mean_val - sd_val, ymax = mean_val + sd_val, color = characteristic_name)) +
   mytheme +
   labs(
     x = "Year",
     y = NULL,
-    title = "Water quality data in Lake Champlain, 1980-2023",
-    subtitle = "Site ID: 1VTDECWQ-500456",
+    title = "Water quality data in Missisquoi Bay, Lake Champlain over time",
+    subtitle = "Site ID: 1VTDECWQ-500476, Site 50",
     color = NULL
-  )
+  ) + geom_vline(xintercept = c(1993, 2003, 2009, 2010, 2014, 2018), 
+               linetype = "dashed", color = "red")
+
+
