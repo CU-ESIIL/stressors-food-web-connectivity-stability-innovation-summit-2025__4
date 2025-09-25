@@ -100,6 +100,9 @@ Aquatic places have a lot of value - food, recreation, biodiversity, and more. F
 
 *Figure 1.* Snapshot showing water quality over time at a pilot station.
 
+![Missisquoi Bay Water Quality over time](assets/Site50_WaterQualityPlusInvasions.png)
+[Raw photo location: lc_water_quality.png](https://github.com/CU-ESIIL/stressors-food-web-connectivity-stability-innovation-summit-2025__4/blob/main/docs/assets/Site50_WaterQualityPlusInvasions)
+*Figure 2.* Water quality over time at a shallow water station. Vertical red dashed lines indicate biological invasions.
 
 #### Interactive map (iframe)
 <iframe
